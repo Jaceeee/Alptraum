@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="13" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Objects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Objects.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="withSlantBorders" tilewidth="32" tileheight="32" tilecount="1050" columns="30">
+  <image source="withSlantBorders.jpg" width="960" height="1120"/>
+ </tileset>
+ <tileset firstgid="1307" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1371" name="hole" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="hole.png" width="35" height="37"/>
+ </tileset>
+ <layer name="Background" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NmYWDwA2JOIOYCYm4g5sGB/bBgXPrsGSFi2PRQioey2Zo0NNsdSC9npp3ZHkCcSgOzQWam0ShMaBHWo2bTzuwqRkwMAiAaAIbOMbasBAAA
+  </data>
+ </layer>
+ <layer name="SlidingTiles" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMgsEPAMYbaWusBAAA
+  </data>
+ </layer>
+ <layer name="Walls" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgYGBgZGEgCjChqWMnQp88UE0iI25szQLBCmhmqQL5LFgwDCizMjBosBLnblKBMo3MpbXZIGBAY/N1gear0cgO9PRFDWDEAsHo6WuogMmMA+0CTLCHmYFhLxLex4yQO84CwdeZycPYwE2oOADZ8H0XrAQAAA==
+  </data>
+ </layer>
+ <layer name="Stopping Tiles" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWDDcxlHGgXUAcMF3/QGoyGE3EAAF2UW+msBAAA
+  </data>
+ </layer>
+ <layer name="Objects" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgYGAwYWVgMAViWgAboLm2QJyMRQ6bGD41ILYFI4LvAjTXlcrufsgMoW2oayyK2bQA9DCblmFCizQIMhuUZmBpkNpmgwAt0yAtACVma9DQbGIAAIrTGaCsBAAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="javadoc">
+    <CLASSES>
+      <root url="jar://C:/Program Files (x86)/slick/Pack200Task.jar!/" />
+      <root url="file://C:/Program Files (x86)/slick/lib" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files (x86)/slick/javadoc" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+      <root url="file://C:/Program Files (x86)/slick" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/Program Files (x86)/slick/src" />
+      <root url="file://C:/Program Files (x86)/slick/tools" />
+    </SOURCES>
+    <jarDirectory url="file://C:/Program Files (x86)/slick/lib" recursive="false" />
+  </library>
+</component>

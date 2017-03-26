@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="lvl1(1)" tilewidth="32" tileheight="32" tilecount="54" columns="6">
+  <image source="lvl1(1).png" width="216" height="288"/>
+ </tileset>
+ <tileset firstgid="119" name="hole" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="hole.png" width="35" height="37"/>
+ </tileset>
+ <tileset firstgid="120" name="lvl3" tilewidth="32" tileheight="32" tilecount="340" columns="20">
+  <image source="lvl3.png" width="648" height="556"/>
+ </tileset>
+ <tileset firstgid="460" name="de1bfc75fed88b89528121f18c837076" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="de1bfc75fed88b89528121f18c837076.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="716" name="Objects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Objects.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="972" name="withSlantBorders" tilewidth="32" tileheight="32" tilecount="1050" columns="30">
+  <image source="withSlantBorders.jpg" width="960" height="1120"/>
+ </tileset>
+ <layer name="Background" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62WTQ6CMBBGm0h6MnAB3KJsTEzcufEEnou1R/ECrqSRCcPHfG1RFy+F2L7OTH+wds41E8c/Uc8+bLHf2a+p3RY9vgVXr0BXpHULepz2RbrZMUyEAsRnxSeuMPtySL+20BdgLHtn+TJfMHxDoe/k12PxeY8vurQvle8vvj35Sov5Wh7mu1VL7WXvsPVgDhZ/+6WP7UXMt4f5crlepvqME3f/eU+diWDM2xXActTPLPbIw9v9UnWJa9gb82Eu4ntV29+1N3e2h4RP9lCMSd9FR8OHewDrIvcPwuLD+az65e5QdtZyvtS+s3zPQ34Ps7ikvfr1NwfPsaYhTvRF0MfWIHcXsvhK62f5xGGtB1tPVk+9l9AXGf1Cak2YT1pBXPpbUPK/RfsY2L+EN64eXQlgCQAA
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="30">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62WwW3DMAxFGTtWYcCNigRo79mkG3SCnnrpyQdP0TG6QDfpTjVhE/r4pmw5DQEitmQ9SSQ/kU4mO9/BL6N3sm1DI1JJ8rfG/64t4CnrRGMxw8zxwnyOWpYsZOr8wwbvsMLwrN3gtbLfXo953m/Yz3sfeU8OT1l418963c36sDyfPnPccA2bzeXi58WthKeWi9/38Tbeo3M+j1nKU049e2m9rOUD7b/19yJTL3gGnmrC9OVte5DUP/D3TN9Zfyk5k+YQ972O7z9h8jCPVZLu+7Whi0j7Rkn9C+u2yzyzqQZK7sE8XaNx+QiJY3Hawxua5RqOt8frZNnvtb5PsKYiryWfe7yf6eOWnmd2BT3dgxeBifq1HAwh5UDdtkeNsd4inItrhHNg86zXtX5qde+5t57fsYeWxi/H60FXHs9ip7WEGvTi15NGOR8cOxz3nK3k/8YeU94f1dDNQGAJAAA=
+  </data>
+ </layer>
+ <layer name="SlidingTiles" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYPCCn0D8C4h/AzEvIwTzMZJvHkw/PyPEbJj5g9E8avh3FIyCUTBwgJKyAB0glw0jwTwQ+Ek9owYEAADskvs2YAkAAA==
+  </data>
+ </layer>
+ <layer name="StoppingTiles" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYOSCZCAuH2hHjIJRMApGwQCADJaBdsHwBgC+nHayYAkAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNiYGAQZqAO4CRBrTUzKk0KkAJiaTRzsJkvB6TliTBPCYiViVCnBsTqRKjTAmJtNDFJLOr0gFifCPOwAUU8cvjCFJecJhluQDYL2X88OOzAFga4ALL/ZHCYhy8MYIAdqpcY/8HUkJMm9cjQM5iBApXN02AgLlyJtdeASDM0iDQPH0A2A9lectIJuhnEAnYqpy9y3Y5cV5BT3mMD1PYbtQG5YUUKQK7TqAHQ6zRK/YCtTsMGyimzZtgBACwufNBgCQAA
+  </data>
+ </layer>
+</map>

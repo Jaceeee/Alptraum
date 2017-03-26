@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="13" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="61978" tilewidth="32" tileheight="32" tilecount="400" columns="25">
+  <image source="61978.png" width="801" height="523"/>
+ </tileset>
+ <tileset firstgid="401" name="tiles2" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="593" name="tiles" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="785" name="GieIeD5" tilewidth="32" tileheight="32" tilecount="576" columns="24">
+  <image source="GieIeD5.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="1361" name="de1bfc75fed88b89528121f18c837076" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="de1bfc75fed88b89528121f18c837076.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1617" name="newcopy" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="newcopy.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1873" name="Object2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Object2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5NnYGCQh2I1JgiWZ6A+xmf2fxyYUrNxmUuKXTCzsemJAIqXo2FS3I7LbJC5i5HwDEYIJsV8mNltWDDMPGQ8FSguRyOz28gwG10cX5hQajahuCTHbFLSHrFpkNj0jUsdNrOxyZHrTkrMlifCbABCGPFArAQAAA==
+  </data>
+ </layer>
+ <layer name="Rocks" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGD5Angw9xcxUdwZDJ9DMLiDuBuIeIO4F4j40e+TR2MS6fSHQnEVAvBiIlwDxUiBeRiU/7ASaswuIdwPxHiDeC8T7qGT2RaA5l4D4MhBfAeKrQHyNSmZLs5KmnpR0Ys7CwGABxJYs1DEPGfgDzQwA4kA8ZpML0oFmZgBxJg3MHigAACd55r2sBAAA
+  </data>
+ </layer>
+ <layer name="Decorations" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC8IY6ed2WlUNnsouZVaoImFgaEZiFtYqG/2LKCZs4F4DhFmkxr2m4BmbgbiLTjMRjaP2mE/WONyuAEACvzqXKwEAAA=
+  </data>
+ </layer>
+ <layer name="Trees2" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYPiCa6wMDNeB+Aor9c1+BjTzORC/oIHZ34BmfgfiLzjMvggUvwTEl6F+A/GJ9SsTGwMDMxCzsGGXfwjU/wiIHwPxEyB+yko9v34E6v8ExJ+hfgPxCfkVBgCUwSyvrAQAAA==
+  </data>
+ </layer>
+ <layer name="Trees" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5NjY2CQB+IrrAxw8BHIPgfE54H4CyuE/wmIPyPx8cnDgB7QXH0gNmBDiDEC2UxAzAzELGyk82HADsi2Z0O1j1oAm33kgotA98khhfElIL7Mihre5AJdNtQwfgQ08zEQP6GC2aA4RQ5jbPFLLkCPU2qG91AEoDSyDojXI6ULdD5MHXJawqUXGewFiu0D4v1AfAAqj84HAfS0hEsvMkAvB0AAnQ9Th55fselFBtjyPQCuE39QrAQAAA==
+  </data>
+ </layer>
+ <layer name="Trees3" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RuQ3AIBAF0bUt6L81jgY4GsCmAE9IgBABZHxp0ofEipyd9WeUiCWn1tsBM1LaYBfMl74N9qVFbnr0ers3wzuWHPnJN9u7+cEfBLxIifKk3d4tD+yC99JHddJu71Y79g8cqiDgrAQAAA==
+  </data>
+ </layer>
+ <layer name="DeadTree" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoB8QA2JxIJYAYkkqm60PxAZAbAjERlQ22wOIPYHYC4i9qWx2IhAnAXEyEKdQ2exRMAqGEwAAmwJmCKwEAAA=
+  </data>
+ </layer>
+</map>

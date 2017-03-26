@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="13" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="withSlantBorders" tilewidth="32" tileheight="32" tilecount="1050" columns="30">
+  <image source="withSlantBorders.jpg" width="960" height="1120"/>
+  <tile id="18">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="699">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="701">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="769">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="770">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="771">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="772">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="773">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="783">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="784">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="785">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="799">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1051" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1115" name="hole" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="hole.png" width="35" height="37"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1116" name="Objects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Objects.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1372" name="uppertile" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="uppertile.png" width="37" height="33"/>
+ </tileset>
+ <layer name="Background" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7vDxMBwB4p3MqDiO0hy9gykY1zmYjObkB249NPT7M9QjGw+Pnfgchsuuc9YMClmD3U8Bw37MJNuhh0FZhMTl4+YEJhYs9mB/NtMCEzID4/ISFOkmk2s+ejpHJ89j7DkC1Iwchihy4HMBgB+U8qjrAQAAA==
+  </data>
+ </layer>
+ <layer name="Invisiblewalls" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAVDDaixDLQLBgbEsGJnUwMgh6kyjvDFZic13YFuFsgdhMzHJ09ILy5/wgC+dEZILy0AAIhwPNGsBAAA
+  </data>
+ </layer>
+ <layer name="Wall2" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUAHNwYGKBGgsE4wK7oBgEYljp7z4Q2A3FlAKQ+5ExNQEjMwSTCkBhcYcJgnGFC6nhRY4bSAW70PikhCsh++YSkMMnT4z5pAIALLVJV6wEAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NggIDtDKhAmIF6AN1sQzLMYGRmYGACYmYgZmHGbbY/GWbLA83TYMEURzdbDajGEsk9MKAMFJeFYhkkNghjMxfmF2Qgg0UdzGxiAchckF8UmDHlZNHcBXMnsQAUFrZYzKUGQA9nfCCGFYJxAVAcgcIBhok1ew8Tgn0Nh5pwND6xZisihTO++CwD4nIk/j4mXCoRQBNonhYLYbNB4CGaeSDzYeGJDS/BY/9yNL3/sahlpHJ6AQC6OxfTrAQAAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGFpgHwuCPZ0FtzpcwAKox5IMfcQAB6C5jlCz9+GxwwQoZ4omj089CHgA5T2JcLcNUI0tFnX7sLiLkJ3owAWo3pVGYTfQwIqG/nIiwmxNFtLjAwS8iNSjOQziDQBXfyhzrAQAAA==
+  </data>
+ </layer>
+ <layer name="Skeletons" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjAAKmswy0CwYXGA2PwQUANvidWqwEAAA=
+  </data>
+ </layer>
+</map>

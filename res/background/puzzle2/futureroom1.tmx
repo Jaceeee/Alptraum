@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="13" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_tile-art-batch-1.png" trans="181929" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="901" name="Health_0" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Health_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="902" name="Untitled-1" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="903" name="Untitled-3" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="904" name="Untitled-2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="905" name="Untitled-4" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-4.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="906" name="1" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="907" name="2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="908" name="ObjectFuture" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="ObjectFuture.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1164" name="3" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="3.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Background" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7VSwQ2AMAhsE3dwIEbw26hzGHUChy59mDYXoDTGS+4BtMcRCOE/zLEyQQ7fJFHBpy3lrLqlV3yQ4dOjvcRKacaeL29vyQfBXAS5Nn6mMe1RoBfN16HM+MLyg3eD8ah2MrSkG9W0pb69G7f+nxxfzNuYybtL/F+wMjfm/lG7hbR/UmoExHxBBr0P68+sBAAA
+  </data>
+ </layer>
+ <layer name="Teleport" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC9oZaazhXjAQLqFkN0D5bbBFD/UBDB/oftvuPqX3oAe4QgAoqUEUawEAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81Syw7AIAgj0W/34Phow4GEdYDD7LAmTZRqeSh3IjYU2LW3r2I0oqvdY+I3TUz1LFekobenz80ZrPfUG/Nk91GTvJi7UncV4l2ZN/cnI02g/XjEOjzsZv8GX3pjf+itWuTtzc9yHP6jKuy7Z/X+Afa/LGNtkGWsBAAA
+  </data>
+ </layer>
+ <layer name="Walls2" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62SUQqAMAxDB/Vmu9s+nIeW4oQY0nWKgX7EuNeVrpSnji32nL3VbqW0Ud0uHvtV8b/OjtRt7vGsZ8xC732xt2K38a2ZZiMDPefMnqlDz0bn0N+52jMXsqPdqHtW4qk51D2V1F6dV0efbLdf2BHrT/Zs/qzP7K1nWmGrt5AVsu/Z1HyYrRTqBNYquXqsBAAA
+  </data>
+ </layer>
+ <layer name="Objects" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC83TWQ6CMBSF4dPigG5EF6muR3BYhvMyxGkV/A+8QNpigyac5Hu6zaG5KZI0xUThNOdrI2XIscEWO+xN/dwcs0DvyjE/0HHECWdccMXNuBricqejwANPvPDGx9O9wLK6Z9vcWinBAEOMMEZqu9+7D2l7I13ieyPN/ad/vMM3idlB7L58O3D1hP6pX3yzjykBpwei6qwEAAA=
+  </data>
+ </layer>
+ <layer name="Invisible Walls" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUBD0s+PmjYBSMAvIAALReW1OsBAAA
+  </data>
+ </layer>
+</map>

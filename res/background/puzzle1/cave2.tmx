@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="35" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="lvl1(1)" tilewidth="32" tileheight="32" tilecount="54" columns="6">
+  <image source="lvl1(1).png" width="216" height="288"/>
+ </tileset>
+ <tileset firstgid="119" name="lvl3" tilewidth="32" tileheight="32" tilecount="340" columns="20">
+  <image source="lvl3.png" width="648" height="556"/>
+ </tileset>
+ <tileset firstgid="459" name="hole" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="hole.png" width="35" height="37"/>
+ </tileset>
+ <tileset firstgid="460" name="de1bfc75fed88b89528121f18c837076" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="de1bfc75fed88b89528121f18c837076.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="716" name="withSlantBorders" tilewidth="32" tileheight="32" tilecount="1050" columns="30">
+  <image source="withSlantBorders.jpg" width="960" height="1120"/>
+ </tileset>
+ <tileset firstgid="1766" name="Objects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Objects.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC72XQW6DMBBFrZ4NWAAb9tnBHdo79BA5RNsztFWPwb5nKEhY/fnM94ylKIsnCHH8POOxY5qUUrvRwTXCfLAcNALuM38utbEYD9CZvf3BTFhjyW3ROxYYyJuvyplhB95jnzP0xWB/C/hL5LFlB+dXxZGxPNjeAttZ8VpjLMXDPpUD7KfkjeTNcnsxK2+X9Hi9MZVc2M7zWldVTyrf/AzXo+Vdg7kszad15X0D1y17VX8lj4r9Ht7od8sdvNEaK+XmEvB6OfbqSY2P/4P6dI43skaVTz1rwYv77mrErPa92vyzdza83h7g1bbaY7ugV7lK+7Cad8+r1oI3j1a8WC+XgNfzRGtuBSefqaZgvrw5j85rk/7X8JT02FV8NVje36dz3MjlAP05by19p37L/0fIZLjxXIfe4SDHoNzoHMHLZ6gp3Z7B8J7jxTOmB3s9PK91nsc5tc7f6nzKOSh5eQ4Ydf5+BPs4WzF+1V6t51oGw/uIeLH+nwnvHedFtOnTuX5/iAF4NVD9qvek/d6qZfbm57v3aqDexzzYo9i9b5W8b3yAC9dGjfezkq+N73Rbm0NlXvb2fzfBfRRoEAAA
+  </data>
+ </layer>
+ <layer name="Background2" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NsQkAIQAEQbU9qxQbtAQDI8XkwUDeGTi4bEMATsqPdQEA4CYt7v9pJc1buzWN/aX7RQe09rAiaBAAAA==
+  </data>
+ </layer>
+ <layer name="Walls" width="30" height="35">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8WXUU7DMAyGw0pAhY6h9gKIG/AK3IYDTOIKfZg4BgfaC8fYHZCItZhaxm7ckSy/ZGWLE39NmziJc8t1IdRdnhBnqVqhrovlVbBVsIaUTVOWC8w7wbcJ9phgQ19o8uVl/94f/VwrhWlh8+flbGDOxU5Jek+t+xsTnvHbH8eSGs9/uKWlMT7D+x+vbcZl6bNT5kwb+7+E8tnJ5amCuJ3iQ25OPVTiompyn5RkWpoL61Jil+aCgH3PfJCPSnMd42IOPAeXzq9O8OfSayUuj1uDy3PlObhSfh795LfuB9Y9BE3LV6OyX+SSxl3K3oa2fSiHYO+JftoeOMfexfgfrJ6fEzW2hYnq3TQWKvqupJzXC5ZD/BvR/wdyFsOzs3YuRe29rT0d35a0OShnzY0SCzhrJ58l6XPgbxzfmtRJ/aVYc/OZ6ibarbF9SlZublEun3t8rVC9MaOCtTK4aQ0Mbn4OSpLYuIYxLm0DPrib/t7/onEOnyOSLGuQ+pbcN3J+51pckJSruGH++wGQV2jWaBAAAA==
+  </data>
+ </layer>
+ <layer name="SlidingTiles" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2U0QrDIAxF43vrNzj//wO7PW2yBu0lusX2qdwDh4gpBm9BEULInViDSNzdpLqE2nvJsffLf8nh69KYPj72/Qi9kZ65en4Cdd/q9fTet3z/lJoprrFaPd3zzG3/p7XGavXixH3bXK01VquXJ+ZiViN7eV+R88he3lfkPLKX99mctc7qmYvvU1HfMY8eMCs9I09ICCGEkCNvXsAp4mgQAAA=
+  </data>
+ </layer>
+ <layer name="StopTile" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SAQ0AAAjDMLzi3wMugECrYHkeAXBLTgc8Z3+6+RwA7FKYt/uWaBAAAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC6QAmJpKptJDFACYmUy9FHqXi0g1iZDHzHu5STDXEKAXPeOglFACRBjp616ZHCakTyzKbFzFCAAofCnNaB3PILso6ed9MxL1DSDHoAaaW+o+HUUjILhCOSAWJ4G5jITkFcDYnUa2EsI6AGx/gDYS08gCcRNTAg+MpvaQAGJrYjDLbQAGkhsTSzy2NxCDWBAQB6bW+gNADMSoohoEAAA
+  </data>
+ </layer>
+ <layer name="Objects2" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W8QpAMBDGxTsoFEMxFJ7VEzvxx7Vk5zah7ldfbuXbrlbfLgj+TwrKXji3AtUMn2u/PWhA64Tow/1SPSYK1SXRg/ulekw0qjuGn+PZmJk+QRD4/C3TXTEzXRB8EaNaedgvBxU3Pdr+i5UG1N70+Hi/R9DkYR8b3MxTjueeZR5lPnS907PMu5oPo+P7xEzGnQ8F4Yss4a6vsAKObA0+aBAAAA==
+  </data>
+ </layer>
+ <layer name="Dec" width="30" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAW0AB7slKkjVj+1Ae8A2TvUgOJoOI0CGoGByvujYBQMNzCalwYODNW2xHBLM7SOh4EOL0L245Mnpx032vYbGDBUy5NRwMAAAFwmLRtoEAAA
+  </data>
+ </layer>
+</map>

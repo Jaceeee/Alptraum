@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="199">
+ <tileset firstgid="1" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_tile-art-batch-1.png" trans="181929" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="901" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1801" name="Health_0" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../../../../Documents/Com Scie/CMSC 22/GAME Sprites/MAP/Puzzle2/LOL/Health_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1802" name="Health_0" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../../../../Documents/Com Scie/CMSC 22/GAME Sprites/MAP/Puzzle2/LOL/Health_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1803" name="Untitled-1" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1804" name="Untitled-3" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-3.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1805" name="Untitled-2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1806" name="Untitled-4" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Untitled-4.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Su07CcBSA8dNCo2/AoD6Nq7q4GnRU9BlYvCC8gDNyV3GRHVBARSd3NCHc5BUA49cEQiNgjJwOJp7kl6ZDz9d/2rQhksEFLnGFLK6hNRV23eMBj6jiCc+KjQa7mmihjQ7e0VVsmKaIBz5jbIH7RVOv4Rxnx6d4jln7p3G7s6WT+LblRmP1Syuo3LDHj23siM45fvK93fjPpr2Hm7NpjP3lxv/MNwOPyAfqQzmvyI1Xt7HEvmV759ALzhyNNUtkHRvW7xsr7Hvj+ZqD3djluocA9nEwZ2O0+xBHOMYJQjhFGBGlRhTniCGOBJJIIa3UyKOAIm5xhxLKqCg1bK/W5PcZ0Wj00MdgRuMT+HyH8MQJAAA=
+  </data>
+ </layer>
+ <objectgroup name="bbox">
+  <properties>
+   <property name="garbage" type="int" value="1"/>
+  </properties>
+  <object id="31" gid="998" x="351.333" y="447.333" width="32" height="32"/>
+  <object id="32" gid="998" x="319.338" y="384.671" width="32" height="32" rotation="-179.984"/>
+  <object id="34" gid="872" x="319.333" y="446.667" width="32" height="32"/>
+  <object id="36" gid="997" x="287.333" y="447.333" width="32" height="32"/>
+  <object id="38" gid="997" x="383.88" y="383.88" width="32" height="32" rotation="-180.43"/>
+  <object id="61" gid="1804" x="320" y="192" width="32" height="32"/>
+  <object id="62" gid="1804" x="96" y="96" width="32" height="32" rotation="-180"/>
+  <object id="63" gid="1804" x="128" y="128" width="32" height="32" rotation="-360"/>
+  <object id="64" gid="1804" x="96" y="160" width="32" height="32" rotation="180"/>
+  <object id="65" gid="1804" x="64" y="320" width="32" height="32" rotation="180"/>
+  <object id="66" gid="1804" x="160" y="256" width="32" height="32" rotation="90"/>
+  <object id="69" gid="1806" x="96" y="192" width="32" height="32" rotation="-270"/>
+  <object id="71" gid="1806" x="352" y="352" width="32" height="32" rotation="-450"/>
+  <object id="73" gid="1803" x="128" y="320" width="32" height="32" rotation="180"/>
+  <object id="74" gid="1803" x="96" y="320" width="32" height="32" rotation="180"/>
+  <object id="75" gid="1803" x="192" y="320" width="32" height="32" rotation="180"/>
+  <object id="76" gid="1803" x="160" y="320" width="32" height="32" rotation="180"/>
+  <object id="77" gid="1803" x="256" y="320" width="32" height="32" rotation="180"/>
+  <object id="78" gid="1803" x="224" y="320" width="32" height="32" rotation="180"/>
+  <object id="79" gid="1803" x="320" y="320" width="32" height="32" rotation="180"/>
+  <object id="80" gid="1803" x="288" y="320" width="32" height="32" rotation="180"/>
+  <object id="81" gid="1803" x="224" y="352" width="32" height="32"/>
+  <object id="82" gid="1803" x="192" y="352" width="32" height="32"/>
+  <object id="83" gid="1803" x="256" y="352" width="32" height="32"/>
+  <object id="84" gid="1803" x="96" y="352" width="32" height="32"/>
+  <object id="85" gid="1803" x="64" y="352" width="32" height="32"/>
+  <object id="87" gid="1803" x="160" y="352" width="32" height="32"/>
+  <object id="88" gid="1803" x="128" y="352" width="32" height="32"/>
+  <object id="89" gid="1803" x="352" y="384" width="37.9842" height="32" rotation="-90"/>
+  <object id="90" gid="1803" x="320" y="352" width="32" height="32" rotation="90"/>
+  <object id="91" gid="1803" x="288" y="192" width="32" height="32" rotation="90"/>
+  <object id="92" gid="1803" x="288" y="224" width="32" height="32" rotation="90"/>
+  <object id="93" gid="1803" x="288" y="256" width="32" height="32" rotation="90"/>
+  <object id="94" gid="1803" x="288" y="288" width="37.9486" height="32" rotation="90"/>
+  <object id="95" gid="1803" x="320" y="326" width="44.0114" height="32" rotation="-90"/>
+  <object id="97" gid="1806" x="224" y="256" width="32" height="32" rotation="-630"/>
+  <object id="98" gid="1803" x="230" y="224" width="44" height="32" rotation="180"/>
+  <object id="99" gid="1803" x="128" y="166" width="44" height="32" rotation="-90"/>
+  <object id="100" gid="1803" x="128" y="160" width="32" height="32"/>
+  <object id="101" gid="1803" x="160" y="160" width="32" height="32"/>
+  <object id="102" gid="1803" x="128" y="192" width="32" height="32"/>
+  <object id="103" gid="1803" x="160" y="192" width="32" height="32"/>
+  <object id="104" gid="1803" x="192" y="192" width="32" height="32"/>
+  <object id="105" gid="1803" x="224" y="192" width="32" height="32"/>
+  <object id="106" gid="1803" x="256" y="192" width="32" height="32"/>
+  <object id="107" gid="1803" x="288" y="192" width="32" height="32"/>
+  <object id="108" gid="1803" x="160" y="128" width="32" height="32" rotation="180"/>
+  <object id="109" gid="1803" x="192" y="128" width="32" height="32" rotation="180"/>
+  <object id="111" gid="1804" x="192" y="160" width="32" height="32"/>
+  <object id="113" gid="1803" x="192" y="256" width="32" height="32" rotation="-90"/>
+  <object id="129" gid="1803" x="288" y="256" width="32" height="32" rotation="-180"/>
+  <object id="131" gid="927" x="256.083" y="283.167" width="21.75" height="21"/>
+  <object id="132" gid="837" x="272.333" y="284.75" width="20.3333" height="21.4167"/>
+  <object id="134" gid="67" x="64" y="128" width="32" height="32" rotation="-270"/>
+  <object id="147" gid="59" x="365" y="410.167" width="15.3333" height="17.6667"/>
+  <object id="152" gid="124" x="128" y="224" width="32" height="32" rotation="-270"/>
+  <object id="153" gid="125" x="128" y="256" width="32" height="32" rotation="-270"/>
+  <object id="154" gid="126" x="128" y="288" width="32" height="32" rotation="-270"/>
+  <object id="155" gid="97" x="285.455" y="250.273" width="32" height="32" rotation="-180"/>
+  <object id="156" gid="97" x="266.333" y="250.5" width="32" height="32" rotation="-180"/>
+  <object id="157" gid="122" x="96" y="384" width="32" height="32" rotation="-90"/>
+  <object id="158" gid="92" x="160" y="352" width="32" height="32" rotation="-270"/>
+  <object id="159" gid="126" x="128" y="352" width="32" height="32" rotation="-270"/>
+  <object id="160" gid="993" x="766.667" y="792.833" width="32" height="32"/>
+  <object id="161" gid="992" x="739.167" y="802.5" width="32" height="32"/>
+  <object id="164" gid="1177" x="613" y="645" width="29.5" height="30"/>
+  <object id="165" gid="1177" x="598.25" y="643.5" width="29.5" height="30"/>
+  <object id="166" gid="1173" x="597.333" y="597" width="26.6667" height="27.6667"/>
+  <object id="167" gid="1173" x="600.333" y="605.5" width="26.6667" height="27.6667"/>
+  <object id="168" gid="1172" x="619" y="606" width="25.3333" height="26"/>
+  <object id="169" gid="1206" x="610" y="600.667" width="28.3333" height="27.3333"/>
+  <object id="171" gid="1176" x="610.485" y="573.576" width="28.697" height="27.4242"/>
+  <object id="172" gid="1801" x="459.496" y="616.662" width="22.8268" height="22.3395" rotation="0.038635"/>
+  <object id="173" gid="908" x="517.333" y="614.667" width="32" height="32"/>
+  <object id="174" gid="907" x="547.333" y="615.333" width="32" height="32"/>
+  <object id="183" gid="249" x="457.097" y="791.297" width="20.1237" height="20.1237" rotation="-0.199762"/>
+  <object id="184" gid="219" x="457.236" y="771.173" width="20.1237" height="20.1237" rotation="-0.199762"/>
+  <object id="185" gid="189" x="457.166" y="750.945" width="20.1237" height="20.1237" rotation="-0.199762"/>
+  <object id="186" gid="1054" x="480" y="768" width="32" height="32" rotation="90"/>
+  <object id="187" gid="1054" x="544" y="768" width="32" height="32" rotation="90"/>
+  <object id="188" gid="1054" x="512" y="768" width="32" height="32" rotation="90"/>
+  <object id="189" gid="1054" x="576" y="768" width="32" height="32" rotation="90"/>
+  <object id="190" gid="1054" x="608" y="768" width="32" height="32" rotation="90"/>
+  <object id="191" gid="1054" x="640" y="768" width="32" height="32" rotation="90"/>
+  <object id="192" gid="1054" x="672" y="768" width="32" height="32" rotation="90"/>
+  <object id="193" gid="1054" x="704" y="768" width="32" height="32" rotation="90"/>
+  <object id="194" gid="1054" x="736" y="768" width="32" height="32" rotation="90"/>
+  <object id="196" gid="1054" x="768" y="768" width="32" height="32" rotation="90"/>
+  <object id="197" gid="1054" x="452.917" y="768.042" width="32" height="32" rotation="90"/>
+ </objectgroup>
+ <objectgroup name="Teleport">
+  <properties>
+   <property name="telport" type="int" value="2"/>
+  </properties>
+  <object id="57" gid="1802" x="98.6818" y="92.8636" width="24.3636" height="24.9091"/>
+  <object id="118" gid="1803" x="165.992" y="192" width="37.9921" height="32" rotation="180"/>
+ </objectgroup>
+</map>

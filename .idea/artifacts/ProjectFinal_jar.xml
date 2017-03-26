@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="ProjectFinal:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectFinal_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ProjectFinal.jar">
+        <element id="module-output" name="ProjectFinal" />
+      </element>
+      <element id="library" level="project" name="KotlinJavaRuntime" />
+      <element id="library" level="project" name="javadoc" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="61978" tilewidth="32" tileheight="32" tilecount="400" columns="25">
+  <image source="61978.png" width="801" height="523"/>
+ </tileset>
+ <tileset firstgid="401" name="de1bfc75fed88b89528121f18c837076" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="de1bfc75fed88b89528121f18c837076.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="657" name="GieIeD5" tilewidth="32" tileheight="32" tilecount="576" columns="24">
+  <image source="GieIeD5.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="1233" name="newcopy" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="newcopy.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1489" name="Object2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Object2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1745" name="tiles" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1937" name="tiles2" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles2.png" width="512" height="384"/>
+ </tileset>
+ <layer name="Background" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5NnYGCQR8NqHBCMLk5NPGrHqB0w/B8J32BD4P8U2PGfARPDzFVmR+AXbNSzA93sGVBMiR1s7Jh4BhYsCsTXSbSHnnagi+MKK1LNJ5SusMU5tezAlb4oTbv48gcyJtV8Yv1BqT2k2CFPIzvwiVFqBznhPtjsIBTv9LCDVPsGsx3UCity0gEABgM7QcQJAAA=
+  </data>
+ </layer>
+ <layer name="Tree 0.5" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1vPysCgwsQABiysDGSDRKDedUC8HohTWFH5+4HYhIl8s2GgEGjOPqh5JayofGGg+SJUsKMRaFYTEDcDcQsrKn89UljRClArrPABZ6D5LlS04yojgt0JNZeaYYVsPojdxwSxh5phhWwHDIDsoWZYgdyMbg/IDmqGVRcWcypoEFbocdJB5bACgQomTDa182AHUpx0QM2lRR5EDzNqhxU2MJjKq0CgunlAPB+IQ1gJ85EBsWG1FqnO2cBKmI8MiA0rfHUQNj4yIDas8NVB2PjIABR+xNSDlMQHsWFFSXwQG1aUxAex6YqS+KAHAADwRA6GxAkAAA==
+  </data>
+ </layer>
+ <layer name="Object0.25" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwA+2MRJQgAYCWRkYgoA4GIhDWEnTSyxIBJqbBMTJQJxChh3MTITVFALNLQLiYiAuwWIHtnCBicHMZ2SCsL8gqWVCsrsRaG4TEDcDcQuNwooegIeZgYEXiPmYaWeHCtBsVSBWo6EdNkCzbYHYjoZ2hADNDgXiMBragQ0IA9OdCBHpnhKgDDRfhcp2HAaadwTJTGMg24TKdtwGmncHyUx6hxW+soRY8AWLe2kRVuhgsIQVI4VuQA4rNxr7ZzgBWoXVUC2v0AExeRCUdlmYUPno8vjUAwBNTU0KxAkAAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SyQ3CMBBFc8i0Ax1AB6AQKIDlBhxYGoBAG1ABSwVQCb3wLIEUObHsxA4nvvSkjH7s0Xh+IlE0gBSGYNIYbwJTmEmxzutEfRbzWZNWeGvYwFaK9VcXvq9wg7uUnzVph7eHDA5SrPN6UD/FfLYJJY778JHrPnzkug8f/WIfoZXG7BVGcXM95ty9gGWNHi/H/zLuPsAx18OWXeW3oO2RbVt2ld+Brke2bdlVfg/6H7/OXLbs6r4+V4i3tM0V4i116XOFeMuqPcvmCp1dfS6l0Nkty1DV7NZR1ez+1azeDMUUaMQJAAA=
+  </data>
+ </layer>
+ <layer name="Objects2" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VSwoCMRBEm5i+hHoGBXWt6LhW/FzAzwV0vICfg0+Js4qDTYpeuJgHb1GEZCBdZER+s1GRARzCvdqZ4YB9UziDZ7UzwwX7VnANb2pnhjv2PeATvtTOLXmEKNKBMX6yR/dSuji7B/v1Nzy6lzLC2WM4qb/h0T2Ltnv/hdXd9/oW7hzf1ab1Izw5vqtN61dYOr6rKfMgsoAFXIbvu7MyQ3p3VmZI787KDMw/K7e7zDxyu8vMI7e7zDxyu8vMowLM3E/nxAkAAA==
+  </data>
+ </layer>
+ <layer name="Object3" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAX0AjcZB9oFo4BYMIuFeLWGbKSZzcnMwMAFxNzMpOkjBSgCzVYCYmUcdnixYWeTAiyBZlsBsTUOO6LYsLNJAYFAs4OAOJiGYTUKRh4QY2JgEGciXr0bCWpBQBWoXg2I1YFYg0S9pAAzoNnmNDSfHIAtrEgNb1LBSA5vAG2HHMPECQAA
+  </data>
+ </layer>
+ <layer name="DeadTree" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjAALEgFgciCWAWJJGdugDsQEQGwKxEY3s8ABiTyD2AmJvGtmRCMRJQJwMxClQsWM0smsUjIJRMApGwSjABgB4xSTgxAkAAA==
+  </data>
+ </layer>
+</map>

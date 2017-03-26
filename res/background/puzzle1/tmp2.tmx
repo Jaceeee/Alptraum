@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="lvl1(1)" tilewidth="32" tileheight="32" tilecount="54" columns="6">
+  <image source="lvl1(1).png" width="216" height="288"/>
+ </tileset>
+ <tileset firstgid="55" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="3.27273" width="32.3636" height="29.0909" visible="0">
+     <properties>
+      <property name="detect" value="collision"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Background" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62VsRKDMAxDPQQG0qX8Avz/N7ZDc2dUyTZpBx1cCC92rDiLma1/1PJ5Pn5Qcxz13gvC+cje3PiR6IT5jOdZJ4iNIZPliDzFmeFV4vS8KF/8T63RgFnhRTlXeYzF4la8btwryGL7h77pCQ/f2RpDkX+jPFXN1Z4pbsZknotiVXExXsZSHjwEL6rj8MbwlpLisZwaEfZPlS+LFXsb61fe12xd1u+i2g3eBmJn2a+hvJX5Oaod88+dnsfiw5pXenwUH9aYzfH91uv51j7By+4MPyfiVfoefs/iy+qMPF8LfyfNCO+2bt8+vqtm1zPwAk3tu4JgCQAA
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2U0QqAIAxF91dWFFYU1P//UI4QYm14B9ZLHbhYsI6jlkQ/fUoLZABcIWUB912Bmgi60NrfZxMq+2r3xzR0zmJemXC5b43nPHh7+oKPazYgHl/t/jxove8pneLj87ExUmIWPuR8zPMsc53tKNaSr4Tlk+9H1owpkxLL19GdKK53I5pvpjuyxvp2+Rzx+jy84WOQf1Ob96c5ADUwxkdgCQAA
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUBQBxIQE0IEIcSaV4EEEdC2f441MQAcSyR5iUAcSKUHY5DTQoQpxJpHjKIJ0MPPQCucCNWHh3gCjdi5dEBoXAjJE9MmiMFIKc5aoAEBkSaIwRIjQtCgNS4IARAceEAxY5IbAcq20Nr4MBAnJsHIm0Ra6c5A3FpayDTMzJwoqIbaGHeKBjcAAAJlrpgYAkAAA==
+  </data>
+ </layer>
+</map>

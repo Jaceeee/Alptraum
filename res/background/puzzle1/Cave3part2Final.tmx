@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="23" height="13" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Objects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Objects.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="BrownCave" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="BrownCave.png" width="256" height="256"/>
+  <tile id="8">
+   <properties>
+    <property name="blocked" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="321" name="withSlantBorders" tilewidth="32" tileheight="32" tilecount="1050" columns="30">
+  <image source="withSlantBorders.jpg" width="960" height="1120"/>
+ </tileset>
+ <tileset firstgid="1371" name="hole" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="hole.png" width="35" height="37"/>
+ </tileset>
+ <tileset firstgid="1372" name="tiles2" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1564" name="tiles" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="../puzzle2/tiles.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="1756" name="uppertile" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="uppertile.png" width="37" height="33"/>
+ </tileset>
+ <layer name="Background" width="23" height="13" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7WUUQ6CMAyGt7hTeBzvIT5zBnx23oDgUYkjtOFvUhu2bKgPX8hI97UbLdE799zhFpyb/SeJGIlHhoi9HejhSdi755OnxsbNyDsQd9Bn4mqxOSfiBfgcy+l3brmziLqP1m69lhZ3avCKO/6h5gTvJeS/fa27lLP1Tkq8qTdCoa+PnoHXV7/NjvXW5NIxXKO4uJf1egD8XufnmHPYyPW/xMgs6rm362+w/xSeyxU6ElJHrAQAAA==
+  </data>
+ </layer>
+ <layer name="Walls" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62S0QqDMAxFG5WK4HQo1I/0eX7t/BF9WcMM1pg4hjlwKRZyckWdk/HgXCakBGXgwvOKmZKzURxtvM+V8L2P+LxuuQvufTJPMPASvHtl1Btpt++Sw+5GVnZaUDHXYuj2hq6UsbB3DrFrr/Sd/3yPt/+GqOF4Tz48Z5BntI4E/suD0CvAsS+foT1pJI9GD3s4HZzziw+UEtc9rAQAAA==
+  </data>
+ </layer>
+ <layer name="SteppingTiles" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWUgImsCExtc4PZEJha5iObG04F8z+yYuJwNgTGJo+OaW02HyN9wwSf+dQ0F9l8WqTBwQYAbbFf/KwEAAA=
+  </data>
+ </layer>
+ <layer name="Objects" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC62S3QqAIAyFt8eooF8oKyjv8/2fq0kLLSw1OyCDuX2T4wAAcgQo6KSopP7KwWgp1yWye+ofHIyJcjPnM46K74SHedYt1Le+vE9zGzR8H9d3b0tzR+bHyJ4xP9SMeI3qoe5N24eev5Ql7sxdNZoY67ctl98CD65A47eAsF2w/8Xlt2SuDNy/WMlAL/6e+0U7ImEuCqwEAAA=
+  </data>
+ </layer>
+ <layer name="Objects2" width="23" height="13">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwA2SsbCTsSkkAhDSr06mXZKMZDqICKBIJbOx+UMTyWxK/YAvnKjlB2xAk4pmk5uuyAEKNAwTDRqabUBDs4cCAAC7RjMerAQAAA==
+  </data>
+ </layer>
+ <layer name="InvWall" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNqAk5Ey/TxA/ftxmHGHjTKz8QGQu2Hm08IeWLhQGj7E2DHUALXDGzkeSQkTZHfgchMsnYBo5DSDTw9InAfJHfjchCxHjB6eAYxzAKs1vKOsBAAA
+  </data>
+ </layer>
+ <layer name="InvWall2" width="23" height="13">
+  <properties>
+   <property name="blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUDAXgY6WM+Le2htR+GIqB2mCDHIy3CeyjFIQDzwjnVrAQAAA==
+  </data>
+ </layer>
+</map>

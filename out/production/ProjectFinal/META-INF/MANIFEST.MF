@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: kotlin-runtime.jar kotlin-reflect.jar Pack200Task.jar ibxm
+ .jar jnlp.jar lwjgl.jar slick.jar jinput.jar jogg-0.0.7.jar lwjgl_uti
+ l.jar tinylinepp.jar natives-mac.jar jorbis-0.0.15.jar natives-linux.
+ jar slick-examples.jar natives-windows.jar lwjgl_util_applet.jar
+Main-Class: alptraum.Game
+
